@@ -1,0 +1,165 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.dynamicTabs {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  .archive {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: orange;
+    color: black;
+  }
+
+  .pstyle {
+    display: inline-flex,
+  }
+
+  p b.Rm
+  {
+    cursor:pointer;
+    color:#020d2c;
+  }
+  .verhistoryclass
+  {
+    cursor:pointer;
+    color:orange;
+    background:black;
+  }
+
+  .tablinks
+  {
+   color:white;
+
+  }
+  .tab
+  {
+    color:white;
+
+  }
+  .tabContainer
+  {
+    background-color: orange;
+    color:black;
+  }
+
+  .tabcontent
+  {
+    color:black;
+    background-color: orange;
+    border-bottom-color: #333333;
+    border-left-color:#333333;
+    border-right-color:#333333;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    margin: 0px;
+    padding: 5px;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  li {
+    float: left;
+    border-top-color: #333333;
+    border-left-color:#333333;
+    border-right-color:#333333;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: orange;
+  }
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}

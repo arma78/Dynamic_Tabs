@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem",
+    "version": "1.11.0",
+    "libraryName": "dynamic-tabs",
+    "libraryId": "7ddff8c8-d69f-445b-96e3-088e9d0e6074",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Dynamic_Tabs",
+    "id": "7ddff8c8-d69f-445b-96e3-088e9d0e6074",
+    "version": "1.0.0.7",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Armin Razic",
+      "websiteUrl": "https://servmanag.azurewebsites.net/soltechna/index.html",
+      "privacyUrl": "https://servmanag.azurewebsites.net/soltechna/privacy.html",
+      "termsOfUseUrl": "https://servmanag.azurewebsites.net/soltechna/termsofuse.html",
+      "mpnId": ""
+    }
+  },
+
+  "paths": {
+    "zippedPackage": "solution/dynamic-tabs.sppkg"
+  }
+}
